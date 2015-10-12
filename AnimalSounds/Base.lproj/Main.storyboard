@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9058" systemVersion="15A284" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+    </dependencies>
+    <scenes>
+        <!--First-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="AnimalSounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="farm-bg" translatesAutoresizingMaskIntoConstraints="NO" id="CwD-nq-7sf">
+                                <rect key="frame" x="0.0" y="140" width="1920" height="940"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bf8-ef-DGn" userLabel="Duck">
+                                <rect key="frame" x="482" y="852" width="200" height="200"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="PAg-Dv-sQG"/>
+                                    <constraint firstAttribute="width" constant="200" id="iPO-U3-PK9"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="Duck"/>
+                                <connections>
+                                    <action selector="didTapDuck:" destination="9pv-A4-QxB" eventType="primaryActionTriggered" id="qQN-RX-jaE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBw-Cy-6uV" userLabel="Hen">
+                                <rect key="frame" x="842" y="852" width="200" height="200"/>
+                                <animations/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="Hen"/>
+                                <connections>
+                                    <action selector="didTapHen:" destination="9pv-A4-QxB" eventType="primaryActionTriggered" id="MUE-Fa-MNg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJs-id-cez" userLabel="Dog">
+                                <rect key="frame" x="70" y="508" width="300" height="300"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="kJo-xa-rHH"/>
+                                    <constraint firstAttribute="width" constant="300" id="pTe-Pf-Ae6"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" backgroundImage="Dog"/>
+                                <state key="disabled" backgroundImage="Dog"/>
+                                <state key="focused" backgroundImage="Dog"/>
+                                <connections>
+                                    <action selector="didTapDog:" destination="9pv-A4-QxB" eventType="primaryActionTriggered" id="1Ka-iP-OQt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9Q-pq-clc" userLabel="Cat">
+                                <rect key="frame" x="432" y="508" width="300" height="300"/>
+                                <animations/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="Cat"/>
+                                <connections>
+                                    <action selector="didTapCat:" destination="9pv-A4-QxB" eventType="primaryActionTriggered" id="ECv-zN-2Hv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhc-Yq-aHw" userLabel="Cow">
+                                <rect key="frame" x="792" y="508" width="300" height="300"/>
+                                <animations/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="Cow"/>
+                                <connections>
+                                    <action selector="didTapCow:" destination="9pv-A4-QxB" eventType="primaryActionTriggered" id="zQv-1g-xVH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTr-Ea-dfS" userLabel="Donkey">
+                                <rect key="frame" x="1168" y="508" width="300" height="300"/>
+                                <animations/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="Donkey"/>
+                                <connections>
+                                    <action selector="didTapDonkey:" destination="9pv-A4-QxB" eventType="primaryActionTriggered" id="6Vq-Wl-26F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axI-XB-WLR" userLabel="Pig">
+                                <rect key="frame" x="1528" y="508" width="300" height="300"/>
+                                <animations/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="Pig"/>
+                                <connections>
+                                    <action selector="didTapPig:" destination="9pv-A4-QxB" eventType="primaryActionTriggered" id="Tij-ZC-cW9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ate-7a-Gzr" userLabel="Chiken">
+                                <rect key="frame" x="1218" y="852" width="200" height="200"/>
+                                <animations/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="Chicken"/>
+                                <connections>
+                                    <action selector="didTapChiken:" destination="9pv-A4-QxB" eventType="primaryActionTriggered" id="LQH-0j-v5V"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IBw-Cy-6uV" firstAttribute="width" secondItem="bf8-ef-DGn" secondAttribute="width" id="37T-B6-6k2"/>
+                            <constraint firstItem="ate-7a-Gzr" firstAttribute="height" secondItem="IBw-Cy-6uV" secondAttribute="height" id="73n-s2-BE1"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="CwD-nq-7sf" secondAttribute="bottom" id="79e-3f-47U"/>
+                            <constraint firstItem="xhc-Yq-aHw" firstAttribute="height" secondItem="U9Q-pq-clc" secondAttribute="height" id="9hN-HP-tOp"/>
+                            <constraint firstItem="BJs-id-cez" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" constant="70" id="9mB-JA-otM"/>
+                            <constraint firstItem="axI-XB-WLR" firstAttribute="height" secondItem="VTr-Ea-dfS" secondAttribute="height" id="B2q-Rd-E8n"/>
+                            <constraint firstItem="ate-7a-Gzr" firstAttribute="centerY" secondItem="IBw-Cy-6uV" secondAttribute="centerY" id="Esq-nE-TVL"/>
+                            <constraint firstAttribute="trailing" secondItem="CwD-nq-7sf" secondAttribute="trailing" id="Gui-4V-qoz"/>
+                            <constraint firstItem="U9Q-pq-clc" firstAttribute="centerY" secondItem="BJs-id-cez" secondAttribute="centerY" id="JXa-1K-X6d"/>
+                            <constraint firstItem="VTr-Ea-dfS" firstAttribute="height" secondItem="xhc-Yq-aHw" secondAttribute="height" id="KwE-aT-A2C"/>
+                            <constraint firstItem="axI-XB-WLR" firstAttribute="width" secondItem="VTr-Ea-dfS" secondAttribute="width" id="Le8-3Y-3CB"/>
+                            <constraint firstItem="bf8-ef-DGn" firstAttribute="leading" secondItem="BJs-id-cez" secondAttribute="trailing" constant="112" id="OER-jI-Av6"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="BJs-id-cez" secondAttribute="bottom" constant="272" id="Q2m-zu-UES"/>
+                            <constraint firstItem="xhc-Yq-aHw" firstAttribute="width" secondItem="U9Q-pq-clc" secondAttribute="width" id="RNC-gL-nAr"/>
+                            <constraint firstAttribute="leading" secondItem="CwD-nq-7sf" secondAttribute="leading" id="TBr-MF-Giq"/>
+                            <constraint firstItem="bf8-ef-DGn" firstAttribute="top" secondItem="U9Q-pq-clc" secondAttribute="bottom" constant="44" id="Ta6-v2-8lX"/>
+                            <constraint firstItem="VTr-Ea-dfS" firstAttribute="width" secondItem="xhc-Yq-aHw" secondAttribute="width" id="Xa9-ql-GJz"/>
+                            <constraint firstItem="IBw-Cy-6uV" firstAttribute="centerY" secondItem="bf8-ef-DGn" secondAttribute="centerY" id="Yft-PN-rOd"/>
+                            <constraint firstItem="U9Q-pq-clc" firstAttribute="leading" secondItem="BJs-id-cez" secondAttribute="trailing" constant="62" id="c4J-1b-fed"/>
+                            <constraint firstItem="U9Q-pq-clc" firstAttribute="height" secondItem="BJs-id-cez" secondAttribute="height" id="eNy-sW-dsh"/>
+                            <constraint firstItem="ate-7a-Gzr" firstAttribute="width" secondItem="IBw-Cy-6uV" secondAttribute="width" id="enC-uy-poz"/>
+                            <constraint firstItem="ate-7a-Gzr" firstAttribute="leading" secondItem="IBw-Cy-6uV" secondAttribute="trailing" constant="176" id="ffQ-a4-AVb"/>
+                            <constraint firstItem="IBw-Cy-6uV" firstAttribute="leading" secondItem="bf8-ef-DGn" secondAttribute="trailing" constant="160" id="gCg-GK-7Sk"/>
+                            <constraint firstItem="CwD-nq-7sf" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="gbK-wu-axv"/>
+                            <constraint firstItem="axI-XB-WLR" firstAttribute="leading" secondItem="VTr-Ea-dfS" secondAttribute="trailing" constant="60" id="kqD-Ag-ep8"/>
+                            <constraint firstItem="axI-XB-WLR" firstAttribute="centerY" secondItem="VTr-Ea-dfS" secondAttribute="centerY" id="nBT-ys-G8K"/>
+                            <constraint firstItem="xhc-Yq-aHw" firstAttribute="leading" secondItem="U9Q-pq-clc" secondAttribute="trailing" constant="60" id="nRR-HT-ysJ"/>
+                            <constraint firstItem="VTr-Ea-dfS" firstAttribute="leading" secondItem="xhc-Yq-aHw" secondAttribute="trailing" constant="76" id="nX2-ZN-SWu"/>
+                            <constraint firstItem="VTr-Ea-dfS" firstAttribute="centerY" secondItem="xhc-Yq-aHw" secondAttribute="centerY" id="v6K-95-YO0"/>
+                            <constraint firstItem="IBw-Cy-6uV" firstAttribute="height" secondItem="bf8-ef-DGn" secondAttribute="height" id="vfO-8l-igx"/>
+                            <constraint firstItem="U9Q-pq-clc" firstAttribute="width" secondItem="BJs-id-cez" secondAttribute="width" id="wc0-Gt-Kzn"/>
+                            <constraint firstItem="xhc-Yq-aHw" firstAttribute="centerY" secondItem="U9Q-pq-clc" secondAttribute="centerY" id="yC5-xY-PCq"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="catButton" destination="U9Q-pq-clc" id="JP7-xy-4n3"/>
+                        <outlet property="chikenButton" destination="IBw-Cy-6uV" id="W8r-xq-4mh"/>
+                        <outlet property="cowButton" destination="xhc-Yq-aHw" id="dvq-3H-gXi"/>
+                        <outlet property="dogButton" destination="BJs-id-cez" id="NoQ-2v-tgn"/>
+                        <outlet property="donkeyButton" destination="VTr-Ea-dfS" id="zQ3-wT-neh"/>
+                        <outlet property="duckButton" destination="bf8-ef-DGn" id="Jqy-hU-iBJ"/>
+                        <outlet property="littleChicken" destination="ate-7a-Gzr" id="Ros-ua-Yt9"/>
+                        <outlet property="pigButton" destination="axI-XB-WLR" id="LMb-uG-i76"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2246" y="-640"/>
+        </scene>
+        <!--Second-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="AnimalSounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
+                                <rect key="frame" x="857" y="519" width="207" height="43"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
+                                <rect key="frame" x="853" y="570" width="215" height="17"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
+                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
+                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
+                            <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2246" y="624"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="120"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cat" width="398" height="400"/>
+        <image name="Chicken" width="397" height="400"/>
+        <image name="Cow" width="398" height="400"/>
+        <image name="Dog" width="397" height="400"/>
+        <image name="Donkey" width="400" height="399"/>
+        <image name="Duck" width="400" height="400"/>
+        <image name="Hen" width="394" height="400"/>
+        <image name="Pig" width="398" height="399"/>
+        <image name="farm-bg" width="2083" height="1458"/>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>
