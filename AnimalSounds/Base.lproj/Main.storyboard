@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--Farm-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="AnimalSounds" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" userLabel="Farm" customClass="FirstViewController" customModule="AnimalSounds" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -109,7 +109,6 @@
                         <constraints>
                             <constraint firstItem="IBw-Cy-6uV" firstAttribute="width" secondItem="bf8-ef-DGn" secondAttribute="width" id="37T-B6-6k2"/>
                             <constraint firstItem="ate-7a-Gzr" firstAttribute="height" secondItem="IBw-Cy-6uV" secondAttribute="height" id="73n-s2-BE1"/>
-                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="CwD-nq-7sf" secondAttribute="bottom" id="79e-3f-47U"/>
                             <constraint firstItem="xhc-Yq-aHw" firstAttribute="height" secondItem="U9Q-pq-clc" secondAttribute="height" id="9hN-HP-tOp"/>
                             <constraint firstItem="BJs-id-cez" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" constant="70" id="9mB-JA-otM"/>
                             <constraint firstItem="axI-XB-WLR" firstAttribute="height" secondItem="VTr-Ea-dfS" secondAttribute="height" id="B2q-Rd-E8n"/>
@@ -119,18 +118,18 @@
                             <constraint firstItem="VTr-Ea-dfS" firstAttribute="height" secondItem="xhc-Yq-aHw" secondAttribute="height" id="KwE-aT-A2C"/>
                             <constraint firstItem="axI-XB-WLR" firstAttribute="width" secondItem="VTr-Ea-dfS" secondAttribute="width" id="Le8-3Y-3CB"/>
                             <constraint firstItem="bf8-ef-DGn" firstAttribute="leading" secondItem="BJs-id-cez" secondAttribute="trailing" constant="112" id="OER-jI-Av6"/>
-                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="BJs-id-cez" secondAttribute="bottom" constant="272" id="Q2m-zu-UES"/>
                             <constraint firstItem="xhc-Yq-aHw" firstAttribute="width" secondItem="U9Q-pq-clc" secondAttribute="width" id="RNC-gL-nAr"/>
                             <constraint firstAttribute="leading" secondItem="CwD-nq-7sf" secondAttribute="leading" id="TBr-MF-Giq"/>
                             <constraint firstItem="bf8-ef-DGn" firstAttribute="top" secondItem="U9Q-pq-clc" secondAttribute="bottom" constant="44" id="Ta6-v2-8lX"/>
+                            <constraint firstItem="CwD-nq-7sf" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="X3R-5q-0n6"/>
                             <constraint firstItem="VTr-Ea-dfS" firstAttribute="width" secondItem="xhc-Yq-aHw" secondAttribute="width" id="Xa9-ql-GJz"/>
                             <constraint firstItem="IBw-Cy-6uV" firstAttribute="centerY" secondItem="bf8-ef-DGn" secondAttribute="centerY" id="Yft-PN-rOd"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="CwD-nq-7sf" secondAttribute="bottom" id="Z5o-va-p6d"/>
                             <constraint firstItem="U9Q-pq-clc" firstAttribute="leading" secondItem="BJs-id-cez" secondAttribute="trailing" constant="62" id="c4J-1b-fed"/>
                             <constraint firstItem="U9Q-pq-clc" firstAttribute="height" secondItem="BJs-id-cez" secondAttribute="height" id="eNy-sW-dsh"/>
                             <constraint firstItem="ate-7a-Gzr" firstAttribute="width" secondItem="IBw-Cy-6uV" secondAttribute="width" id="enC-uy-poz"/>
                             <constraint firstItem="ate-7a-Gzr" firstAttribute="leading" secondItem="IBw-Cy-6uV" secondAttribute="trailing" constant="176" id="ffQ-a4-AVb"/>
                             <constraint firstItem="IBw-Cy-6uV" firstAttribute="leading" secondItem="bf8-ef-DGn" secondAttribute="trailing" constant="160" id="gCg-GK-7Sk"/>
-                            <constraint firstItem="CwD-nq-7sf" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="gbK-wu-axv"/>
                             <constraint firstItem="axI-XB-WLR" firstAttribute="leading" secondItem="VTr-Ea-dfS" secondAttribute="trailing" constant="60" id="kqD-Ag-ep8"/>
                             <constraint firstItem="axI-XB-WLR" firstAttribute="centerY" secondItem="VTr-Ea-dfS" secondAttribute="centerY" id="nBT-ys-G8K"/>
                             <constraint firstItem="xhc-Yq-aHw" firstAttribute="leading" secondItem="U9Q-pq-clc" secondAttribute="trailing" constant="60" id="nRR-HT-ysJ"/>
@@ -138,10 +137,11 @@
                             <constraint firstItem="VTr-Ea-dfS" firstAttribute="centerY" secondItem="xhc-Yq-aHw" secondAttribute="centerY" id="v6K-95-YO0"/>
                             <constraint firstItem="IBw-Cy-6uV" firstAttribute="height" secondItem="bf8-ef-DGn" secondAttribute="height" id="vfO-8l-igx"/>
                             <constraint firstItem="U9Q-pq-clc" firstAttribute="width" secondItem="BJs-id-cez" secondAttribute="width" id="wc0-Gt-Kzn"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="BJs-id-cez" secondAttribute="bottom" constant="272" id="xsy-uJ-tEO"/>
                             <constraint firstItem="xhc-Yq-aHw" firstAttribute="centerY" secondItem="U9Q-pq-clc" secondAttribute="centerY" id="yC5-xY-PCq"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Farm" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="catButton" destination="U9Q-pq-clc" id="JP7-xy-4n3"/>
                         <outlet property="chikenButton" destination="IBw-Cy-6uV" id="W8r-xq-4mh"/>
@@ -157,49 +157,6 @@
             </objects>
             <point key="canvasLocation" x="2246" y="-640"/>
         </scene>
-        <!--Second-->
-        <scene sceneID="wg7-f3-ORb">
-            <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="AnimalSounds" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
-                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="857" y="519" width="207" height="43"/>
-                                <animations/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <rect key="frame" x="853" y="570" width="215" height="17"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
-                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
-                            <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2246" y="624"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -213,12 +170,106 @@
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="BKx-Nb-5qa" kind="relationship" relationship="viewControllers" id="i6p-71-ylm"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-5" y="72"/>
+        </scene>
+        <!--Jungle-->
+        <scene sceneID="hed-wM-MoL">
+            <objects>
+                <viewController id="BKx-Nb-5qa" userLabel="Jungle" customClass="SecondViewController" customModule="AnimalSounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QDI-7B-yKY"/>
+                        <viewControllerLayoutGuide type="bottom" id="V8f-mx-awM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZL1-BW-8OE">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jungle-bg" translatesAutoresizingMaskIntoConstraints="NO" id="45z-mm-gC9">
+                                <rect key="frame" x="0.0" y="140" width="1920" height="940"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rST-pG-3MV" userLabel="Lion">
+                                <rect key="frame" x="137" y="607" width="300" height="300"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="7dz-ra-ZlP"/>
+                                    <constraint firstAttribute="width" constant="300" id="ekc-vx-VI5"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" backgroundImage="Lion"/>
+                                <state key="disabled" backgroundImage="Dog"/>
+                                <connections>
+                                    <action selector="didTapLion:" destination="BKx-Nb-5qa" eventType="primaryActionTriggered" id="5ed-Wg-QDR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z8l-FO-Y1A" userLabel="Zebra">
+                                <rect key="frame" x="1035" y="607" width="300" height="300"/>
+                                <animations/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="Zebra"/>
+                                <connections>
+                                    <action selector="didTapZebra:" destination="BKx-Nb-5qa" eventType="primaryActionTriggered" id="reT-q7-Sx7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07t-Ub-xo2" userLabel="Monkey">
+                                <rect key="frame" x="1508" y="607" width="300" height="300"/>
+                                <animations/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="Monkey"/>
+                                <connections>
+                                    <action selector="didTapMonkey:" destination="BKx-Nb-5qa" eventType="primaryActionTriggered" id="3MZ-MR-bOi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOD-Sf-wiQ" userLabel="Elephant">
+                                <rect key="frame" x="608" y="607" width="300" height="300"/>
+                                <animations/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="Elephant"/>
+                                <connections>
+                                    <action selector="didTapElephant:" destination="BKx-Nb-5qa" eventType="primaryActionTriggered" id="WYe-33-rkt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cOD-Sf-wiQ" firstAttribute="width" secondItem="rST-pG-3MV" secondAttribute="width" id="0s2-DU-p5j"/>
+                            <constraint firstItem="Z8l-FO-Y1A" firstAttribute="width" secondItem="cOD-Sf-wiQ" secondAttribute="width" id="2tk-zh-LW0"/>
+                            <constraint firstAttribute="leading" secondItem="45z-mm-gC9" secondAttribute="leading" id="Dxz-Zt-I2t"/>
+                            <constraint firstAttribute="trailing" secondItem="45z-mm-gC9" secondAttribute="trailing" id="H6P-OO-gQx"/>
+                            <constraint firstItem="cOD-Sf-wiQ" firstAttribute="height" secondItem="rST-pG-3MV" secondAttribute="height" id="Njk-DC-xCo"/>
+                            <constraint firstItem="V8f-mx-awM" firstAttribute="top" secondItem="rST-pG-3MV" secondAttribute="bottom" constant="173" id="OmQ-Ol-kGQ"/>
+                            <constraint firstItem="07t-Ub-xo2" firstAttribute="height" secondItem="Z8l-FO-Y1A" secondAttribute="height" id="Qi4-Qw-Ppp"/>
+                            <constraint firstItem="07t-Ub-xo2" firstAttribute="leading" secondItem="Z8l-FO-Y1A" secondAttribute="trailing" constant="173" id="S3e-Ec-WlM"/>
+                            <constraint firstItem="45z-mm-gC9" firstAttribute="top" secondItem="QDI-7B-yKY" secondAttribute="bottom" id="TkU-tQ-kta"/>
+                            <constraint firstItem="07t-Ub-xo2" firstAttribute="centerY" secondItem="Z8l-FO-Y1A" secondAttribute="centerY" id="WTx-1z-tMP"/>
+                            <constraint firstItem="rST-pG-3MV" firstAttribute="leading" secondItem="ZL1-BW-8OE" secondAttribute="leading" constant="137" id="Wi7-GR-R06"/>
+                            <constraint firstItem="Z8l-FO-Y1A" firstAttribute="leading" secondItem="cOD-Sf-wiQ" secondAttribute="trailing" constant="127" id="YyU-tk-1yZ"/>
+                            <constraint firstItem="cOD-Sf-wiQ" firstAttribute="centerY" secondItem="rST-pG-3MV" secondAttribute="centerY" id="Zgz-60-9X4"/>
+                            <constraint firstItem="07t-Ub-xo2" firstAttribute="width" secondItem="Z8l-FO-Y1A" secondAttribute="width" id="dzb-zf-zPU"/>
+                            <constraint firstItem="Z8l-FO-Y1A" firstAttribute="centerY" secondItem="cOD-Sf-wiQ" secondAttribute="centerY" id="epN-IL-LKx"/>
+                            <constraint firstItem="Z8l-FO-Y1A" firstAttribute="height" secondItem="cOD-Sf-wiQ" secondAttribute="height" id="h0x-Dc-HQB"/>
+                            <constraint firstItem="V8f-mx-awM" firstAttribute="top" secondItem="45z-mm-gC9" secondAttribute="bottom" id="uu1-kB-2uk"/>
+                            <constraint firstItem="cOD-Sf-wiQ" firstAttribute="leading" secondItem="rST-pG-3MV" secondAttribute="trailing" constant="171" id="znE-dB-q8e"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Jungle" id="OmQ-35-Ngr"/>
+                    <connections>
+                        <outlet property="elephantButton" destination="cOD-Sf-wiQ" id="5JD-x2-eXl"/>
+                        <outlet property="lionButton" destination="rST-pG-3MV" id="RNk-mS-Tdd"/>
+                        <outlet property="monkeyButton" destination="07t-Ub-xo2" id="TW8-mB-OsY"/>
+                        <outlet property="zebraButton" destination="Z8l-FO-Y1A" id="EGb-oi-DbU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BhU-Ia-TfB" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2260" y="550"/>
         </scene>
     </scenes>
     <resources>
@@ -228,10 +279,13 @@
         <image name="Dog" width="397" height="400"/>
         <image name="Donkey" width="400" height="399"/>
         <image name="Duck" width="400" height="400"/>
+        <image name="Elephant" width="400" height="400"/>
         <image name="Hen" width="394" height="400"/>
+        <image name="Lion" width="400" height="400"/>
+        <image name="Monkey" width="397" height="400"/>
         <image name="Pig" width="398" height="399"/>
+        <image name="Zebra" width="400" height="400"/>
         <image name="farm-bg" width="2083" height="1458"/>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="jungle-bg" width="1650" height="1275"/>
     </resources>
 </document>

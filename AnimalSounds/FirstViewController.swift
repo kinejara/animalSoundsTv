@@ -22,17 +22,13 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var chikenButton: UIButton!
     @IBOutlet weak var littleChicken: UIButton!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        dogButton.backgroundColor = UIColor.clearColor()
-        //dogButton.imageView!.adjustsImageWhenAncestorFocused = true;
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
     
     override func didUpdateFocusInContext(context: UIFocusUpdateContext, withAnimationCoordinator coordinator: UIFocusAnimationCoordinator) {
         context.nextFocusedView!.layer.shadowOffset = CGSizeMake(0, -20)

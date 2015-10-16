@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B402BAD31BD0C4A9001FDC5C /* ZEBRA.wav in Resources */ = {isa = PBXBuildFile; fileRef = B402BAD11BD0C4A9001FDC5C /* ZEBRA.wav */; };
+		B402BAD41BD0C4A9001FDC5C /* MONKEY.wav in Resources */ = {isa = PBXBuildFile; fileRef = B402BAD21BD0C4A9001FDC5C /* MONKEY.wav */; };
+		B402BAD71BD0C561001FDC5C /* ELEPHANT.wav in Resources */ = {isa = PBXBuildFile; fileRef = B402BAD51BD0C561001FDC5C /* ELEPHANT.wav */; };
+		B402BADE1BD0C6B7001FDC5C /* LIONS.WAV in Resources */ = {isa = PBXBuildFile; fileRef = B402BADD1BD0C6B7001FDC5C /* LIONS.WAV */; };
 		B474F9A91BC4F01A00A6E003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B474F9A81BC4F01A00A6E003 /* AppDelegate.swift */; };
 		B474F9AB1BC4F01A00A6E003 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B474F9AA1BC4F01A00A6E003 /* FirstViewController.swift */; };
 		B474F9AD1BC4F01A00A6E003 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B474F9AC1BC4F01A00A6E003 /* SecondViewController.swift */; };
@@ -24,6 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B402BAD11BD0C4A9001FDC5C /* ZEBRA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ZEBRA.wav; sourceTree = "<group>"; };
+		B402BAD21BD0C4A9001FDC5C /* MONKEY.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MONKEY.wav; sourceTree = "<group>"; };
+		B402BAD51BD0C561001FDC5C /* ELEPHANT.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ELEPHANT.wav; sourceTree = "<group>"; };
+		B402BADD1BD0C6B7001FDC5C /* LIONS.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = LIONS.WAV; sourceTree = "<group>"; };
 		B474F9A51BC4F01A00A6E003 /* AnimalSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B474F9A81BC4F01A00A6E003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B474F9AA1BC4F01A00A6E003 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +62,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B45DDBCA1BD0AA4400BB2307 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B474F9B91BC4F05800A6E003 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B45DDBCB1BD0AA5700BB2307 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B474F9AA1BC4F01A00A6E003 /* FirstViewController.swift */,
+				B474F9AC1BC4F01A00A6E003 /* SecondViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		B474F99C1BC4F01A00A6E003 = {
 			isa = PBXGroup;
 			children = (
@@ -73,14 +98,13 @@
 		B474F9A71BC4F01A00A6E003 /* AnimalSounds */ = {
 			isa = PBXGroup;
 			children = (
-				B474F9BB1BC4F0A300A6E003 /* Sounds */,
 				B474F9A81BC4F01A00A6E003 /* AppDelegate.swift */,
-				B474F9AA1BC4F01A00A6E003 /* FirstViewController.swift */,
-				B474F9AC1BC4F01A00A6E003 /* SecondViewController.swift */,
+				B45DDBCB1BD0AA5700BB2307 /* Views */,
+				B45DDBCA1BD0AA4400BB2307 /* Frameworks */,
+				B474F9BB1BC4F0A300A6E003 /* Sounds */,
 				B474F9AE1BC4F01A00A6E003 /* Main.storyboard */,
 				B474F9B11BC4F01A00A6E003 /* Assets.xcassets */,
 				B474F9B31BC4F01A00A6E003 /* Info.plist */,
-				B474F9B91BC4F05800A6E003 /* AVFoundation.framework */,
 			);
 			path = AnimalSounds;
 			sourceTree = "<group>";
@@ -88,6 +112,10 @@
 		B474F9BB1BC4F0A300A6E003 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				B402BADD1BD0C6B7001FDC5C /* LIONS.WAV */,
+				B402BAD51BD0C561001FDC5C /* ELEPHANT.wav */,
+				B402BAD11BD0C4A9001FDC5C /* ZEBRA.wav */,
+				B402BAD21BD0C4A9001FDC5C /* MONKEY.wav */,
 				B4835B411BCB79FE00E9D0C8 /* COW.wav */,
 				B4835B331BCB793D00E9D0C8 /* CHIKEN.wav */,
 				B4835B341BCB793D00E9D0C8 /* DUCK.mp3 */,
@@ -158,10 +186,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B402BADE1BD0C6B7001FDC5C /* LIONS.WAV in Resources */,
 				B4835B401BCB793D00E9D0C8 /* CAT.wav in Resources */,
 				B4835B3A1BCB793D00E9D0C8 /* CHIKEN.wav in Resources */,
 				B4835B3B1BCB793D00E9D0C8 /* DUCK.mp3 in Resources */,
+				B402BAD31BD0C4A9001FDC5C /* ZEBRA.wav in Resources */,
+				B402BAD71BD0C561001FDC5C /* ELEPHANT.wav in Resources */,
 				B4835B3E1BCB793D00E9D0C8 /* DOG.wav in Resources */,
+				B402BAD41BD0C4A9001FDC5C /* MONKEY.wav in Resources */,
 				B4835B3C1BCB793D00E9D0C8 /* PIG.wav in Resources */,
 				B474F9B21BC4F01A00A6E003 /* Assets.xcassets in Resources */,
 				B4835B421BCB79FE00E9D0C8 /* COW.wav in Resources */,
