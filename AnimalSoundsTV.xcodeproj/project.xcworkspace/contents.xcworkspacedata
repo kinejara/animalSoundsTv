@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AnimalSounds.xcodeproj">
+      location = "self:/Users/jorgevilla/Desktop/AnimalSounds/AnimalSoundsTV.xcodeproj">
    </FileRef>
 </Workspace>

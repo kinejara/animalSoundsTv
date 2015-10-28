@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B474F9A41BC4F01A00A6E003"
-               BuildableName = "AnimalSounds.app"
-               BlueprintName = "AnimalSounds"
-               ReferencedContainer = "container:AnimalSounds.xcodeproj">
+               BuildableName = "AnimalSoundsTV.app"
+               BlueprintName = "AnimalSoundsTV"
+               ReferencedContainer = "container:AnimalSoundsTV.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B474F9A41BC4F01A00A6E003"
-            BuildableName = "AnimalSounds.app"
-            BlueprintName = "AnimalSounds"
-            ReferencedContainer = "container:AnimalSounds.xcodeproj">
+            BuildableName = "AnimalSoundsTV.app"
+            BlueprintName = "AnimalSoundsTV"
+            ReferencedContainer = "container:AnimalSoundsTV.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B474F9A41BC4F01A00A6E003"
-            BuildableName = "AnimalSounds.app"
-            BlueprintName = "AnimalSounds"
-            ReferencedContainer = "container:AnimalSounds.xcodeproj">
+            BuildableName = "AnimalSoundsTV.app"
+            BlueprintName = "AnimalSoundsTV"
+            ReferencedContainer = "container:AnimalSoundsTV.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B474F9A41BC4F01A00A6E003"
-            BuildableName = "AnimalSounds.app"
-            BlueprintName = "AnimalSounds"
-            ReferencedContainer = "container:AnimalSounds.xcodeproj">
+            BuildableName = "AnimalSoundsTV.app"
+            BlueprintName = "AnimalSoundsTV"
+            ReferencedContainer = "container:AnimalSoundsTV.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

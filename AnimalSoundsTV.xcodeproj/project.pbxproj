@@ -32,7 +32,7 @@
 		B402BAD21BD0C4A9001FDC5C /* MONKEY.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MONKEY.wav; sourceTree = "<group>"; };
 		B402BAD51BD0C561001FDC5C /* ELEPHANT.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ELEPHANT.wav; sourceTree = "<group>"; };
 		B402BADD1BD0C6B7001FDC5C /* LIONS.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = LIONS.WAV; sourceTree = "<group>"; };
-		B474F9A51BC4F01A00A6E003 /* AnimalSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B474F9A51BC4F01A00A6E003 /* AnimalSoundsTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalSoundsTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B474F9A81BC4F01A00A6E003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B474F9AA1BC4F01A00A6E003 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		B474F9AC1BC4F01A00A6E003 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -70,13 +70,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B45DDBCB1BD0AA5700BB2307 /* Views */ = {
+		B45DDBCB1BD0AA5700BB2307 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B474F9A81BC4F01A00A6E003 /* AppDelegate.swift */,
 				B474F9AA1BC4F01A00A6E003 /* FirstViewController.swift */,
 				B474F9AC1BC4F01A00A6E003 /* SecondViewController.swift */,
 			);
-			name = Views;
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		B474F99C1BC4F01A00A6E003 = {
@@ -90,7 +91,7 @@
 		B474F9A61BC4F01A00A6E003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B474F9A51BC4F01A00A6E003 /* AnimalSounds.app */,
+				B474F9A51BC4F01A00A6E003 /* AnimalSoundsTV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,8 +99,7 @@
 		B474F9A71BC4F01A00A6E003 /* AnimalSounds */ = {
 			isa = PBXGroup;
 			children = (
-				B474F9A81BC4F01A00A6E003 /* AppDelegate.swift */,
-				B45DDBCB1BD0AA5700BB2307 /* Views */,
+				B45DDBCB1BD0AA5700BB2307 /* Classes */,
 				B45DDBCA1BD0AA4400BB2307 /* Frameworks */,
 				B474F9BB1BC4F0A300A6E003 /* Sounds */,
 				B474F9AE1BC4F01A00A6E003 /* Main.storyboard */,
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B474F9A41BC4F01A00A6E003 /* AnimalSounds */ = {
+		B474F9A41BC4F01A00A6E003 /* AnimalSoundsTV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B474F9B61BC4F01A00A6E003 /* Build configuration list for PBXNativeTarget "AnimalSounds" */;
+			buildConfigurationList = B474F9B61BC4F01A00A6E003 /* Build configuration list for PBXNativeTarget "AnimalSoundsTV" */;
 			buildPhases = (
 				B474F9A11BC4F01A00A6E003 /* Sources */,
 				B474F9A21BC4F01A00A6E003 /* Frameworks */,
@@ -143,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = AnimalSounds;
+			name = AnimalSoundsTV;
 			productName = AnimalSounds;
-			productReference = B474F9A51BC4F01A00A6E003 /* AnimalSounds.app */;
+			productReference = B474F9A51BC4F01A00A6E003 /* AnimalSoundsTV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -160,10 +160,11 @@
 				TargetAttributes = {
 					B474F9A41BC4F01A00A6E003 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = WFBNVJ2MHG;
 					};
 				};
 			};
-			buildConfigurationList = B474F9A01BC4F01A00A6E003 /* Build configuration list for PBXProject "AnimalSounds" */;
+			buildConfigurationList = B474F9A01BC4F01A00A6E003 /* Build configuration list for PBXProject "AnimalSoundsTV" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,7 +177,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B474F9A41BC4F01A00A6E003 /* AnimalSounds */,
+				B474F9A41BC4F01A00A6E003 /* AnimalSoundsTV */,
 			);
 		};
 /* End PBXProject section */
@@ -316,10 +317,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AnimalSounds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kine.AnimalSounds;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kine.AnimalSoundsTV;
+				PRODUCT_NAME = AnimalSoundsTV;
+				PROVISIONING_PROFILE = "";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
@@ -329,10 +333,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AnimalSounds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kine.AnimalSounds;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kine.AnimalSoundsTV;
+				PRODUCT_NAME = AnimalSoundsTV;
+				PROVISIONING_PROFILE = "";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
@@ -340,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B474F9A01BC4F01A00A6E003 /* Build configuration list for PBXProject "AnimalSounds" */ = {
+		B474F9A01BC4F01A00A6E003 /* Build configuration list for PBXProject "AnimalSoundsTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B474F9B41BC4F01A00A6E003 /* Debug */,
@@ -349,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B474F9B61BC4F01A00A6E003 /* Build configuration list for PBXNativeTarget "AnimalSounds" */ = {
+		B474F9B61BC4F01A00A6E003 /* Build configuration list for PBXNativeTarget "AnimalSoundsTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B474F9B71BC4F01A00A6E003 /* Debug */,
